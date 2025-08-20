@@ -1,0 +1,80 @@
+.signup-container {
+  padding: 30px 20px;
+}
+
+.signup-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+/* Floating input same as Login */
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 10px 8px;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+}
+
+.input-group label {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #800080;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+  top: -8px;
+  left: 5px;
+  font-size: 12px;
+  color: #800080;
+}
+
+.input-group input:focus {
+  border-bottom: 2px solid #800080;
+}
+
+/* Error message */
+.error-text {
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}
+
+/* Radio buttons */
+.radio-group {
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.radio-group p {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Button */
+.signup-btn {
+  background-color: #800080 !important;
+  border: none !important;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
